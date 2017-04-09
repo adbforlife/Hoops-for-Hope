@@ -1,0 +1,264 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fcfcfc;
+}
+
+a:link, a:visited, a:hover, a:active  {
+  text-decoration: none;
+}
+
+h1  {
+  font-weight: 900;
+}
+
+#navigation  {
+  height: 90px;
+  width: 100%;
+  z-index: 99999;
+  border-bottom: 1px solid dimgrey;
+  background-color: #fcfcfc;
+}
+
+#logo {
+  height: 80px;
+  width: auto;
+  margin-top: 5px;
+}
+
+#design-label {
+  margin-top: 15px;
+  color: #1394E2;
+  font-weight: bold;
+}
+
+nav > p {
+  cursor: pointer;
+  text-align: center;
+  font-size: 0.85em;
+}
+
+nav {
+  display: flex;
+  text-align: right;
+}
+
+.menuItems-white, .menuItems-blue {
+  height: 40px;
+  width: 100px;
+  padding-top: 8px;
+  border: 1px solid;
+  border-color: #1394E2;
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.menuItems-white  {
+  color: #fcfcfc;
+  background-color: #1394E2;
+}
+
+.menuItems-blue {
+  color: #1394E2;
+}
+
+.jumbo {
+  border-radius: 0px;
+  background-image: url(https://s3.amazonaws.com/adbforlife/Hoops+for+Hope/quality/Quality_Hoop.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+#join {
+  color: #1394E2;
+  font-weight: 700;
+  font-size: 90px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#hoops {
+  color: #fcfcfc;
+  font-weight: bold;
+  font-size: 70px;
+  text-align: center;
+}
+
+#block1  {
+  height: 760px;
+  padding-top: 100px;
+  color: #1394e2;
+}
+
+.thickLine  {
+  width: 50px;
+  height: 4px;
+  margin-bottom: 60px;
+  background-color: #1394E2;
+}
+
+.secondHeading  {
+  margin-bottom: 60px;
+}
+
+.paragraph  {
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 60px;
+  margin-bottom: 60px;
+}
+
+.button-white, .button-blue   {
+  display: inline;
+}
+
+.buttonText, .buttonText2 {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.buttonText   {
+  color: #1394e2;
+}
+
+.buttonText2  {
+  color: #fcfcfc;
+}
+
+.buttonLeft, .buttonRight {
+  display: inline;
+  border-top: 4px solid #1394e2;
+  border-bottom: 4px solid #1394e2;
+}
+
+.buttonLeft2, .buttonRight2 {
+  display: inline;
+  border-top: 4px solid #fcfcfc;
+  border-bottom: 4px solid #fcfcfc;
+}
+
+.buttonLeft {
+  padding-left: 10px;
+  border-left: 4px solid #1394e2;
+}
+
+.buttonLeft2  {
+  padding-left: 10px;
+  border-left: 4px solid #fcfcfc;
+}
+
+.buttonRight  {
+  padding-right: 10px;
+  border-right: 4px solid #1394e2;
+}
+
+.buttonRight2 {
+  padding-right: 10px;
+  border-right: 4px solid #fcfcfc;
+}
+
+.buttonMiddle {
+  display: inline;
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+.pics-white  {
+  border: 4px solid #fcfcfc;
+  position: absolute;
+}
+
+#about-img {
+  width: 400px;
+  height: 300px;
+  margin-top: 0px;
+}
+
+#about-img2 {
+  width: 400px;
+  height: 300px;
+  margin-top: 315px;
+}
+
+#block2 {
+  height: 760px;
+  padding-top: 100px;
+  background-image: url(https://s3.amazonaws.com/adbforlife/Hoops+for+Hope/quality/Quality_Background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fcfcfc;
+}
+
+.pics-blue {
+  border: 4px solid #1394E2;
+  position: absolute;
+}
+
+#profile-img  {
+  width: 300px;
+  height: 450px;
+  margin-top: 30px;
+}
+
+#block3 {
+  height: 520px;
+  padding-top: 100px;
+  background-color: #1394E2;
+  color: #fcfcfc;
+}
+
+#westy   {
+  height: auto;
+  width: 600px;
+}
+
+#block4 {
+  height: 760px;
+  padding-top: 100px;
+  color: #e64314;
+  background-color: #fcfcfc;
+}
+
+#block5 {
+  height: 760px;
+  padding-top: 100px;
+  background-image: url(https://s3.amazonaws.com/adbforlife/Hoops+for+Hope/quality/Quality_Background2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.sponsor-img  {
+  height: 100px;
+  width: auto;
+  display: inline;
+  color: #1394e2;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+
+.image  {
+  width: 300px;
+  height: 250px;
+}
+
+.img-row  {
+  height: 300px;
+}
+
+.col-sm-4 p {
+  margin: 25px 20px 15px;
+  min-width: 60px;
+  padding: 1px;
+}
+
+footer {
+  height: 370px;
+  padding-top: 100px;
+}
+
+footer div {
+  align-items: center;
+}
