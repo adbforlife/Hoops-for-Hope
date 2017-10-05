@@ -222,7 +222,7 @@ nav {
 }
 
 #block5 {
-  height: 760px;
+  height: 1720px;
   padding-top: 100px;
   background-image: url(https://s3.amazonaws.com/adbforlife/Hoops+for+Hope/quality/Quality_Background2.jpg);
   background-repeat: no-repeat;
@@ -246,6 +246,10 @@ nav {
 
 .img-row  {
   height: 300px;
+}
+
+.img-row2 {
+  height: 350px;
 }
 
 .col-sm-4 p {
